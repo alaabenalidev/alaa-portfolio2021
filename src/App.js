@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import "tailwindcss/tailwind.css"
+import Header from './components/Header'
 
 // "start": "react-scripts start",
 //     "build": "react-scripts build",
@@ -9,6 +10,7 @@ import "tailwindcss/tailwind.css"
 function App() {
   return (
       <div className="App">
+          <Header/>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
           <p>
