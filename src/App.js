@@ -3,6 +3,7 @@ import './App.css';
 import "tailwindcss/tailwind.css"
 import Header from './components/Header'
 import Welcoming from './blocks/Welcoming'
+import AboutMe from "./blocks/AboutMe";
 
 // "start": "react-scripts start",
 //     "build": "react-scripts build",
@@ -13,6 +14,7 @@ function App() {
       <div className="App">
           <Header/>
           <Welcoming/>
+          {/*<AboutMe/>*/}
           {/*<header className="App-header">*/}
           {/*  <img src={logo} className="App-logo" alt="logo"/>*/}
           {/*  <p>*/}

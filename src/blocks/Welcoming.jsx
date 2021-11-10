@@ -5,12 +5,12 @@ import {UilGithubAlt, UilInstagram, UilLinkedinAlt, UilMessage} from "@iconscout
 const Welcoming = () => {
     return (
         // lg:grid-cols-3 md:grid-cols-2 md:grid-rows-2
-        <section className="flex w-full h-screen bg-gray-200 home_section fixed">
-            <div className="grid grid-cols-7">
-                <div className="flex order-1 justify-center items-center">
+        <section className="flex w-full h-screen bg-gray-200">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-4">
+                <div className=" md:col-span-1 md:col-span-1 lg:col-span-1 flex order-1 justify-center items-center">
                     <div className="block">
                         <a href="" target="_blank" className=" text-purple-500">
-                            <UilLinkedinAlt className="h-7 w-7 mx-3 my-3 hover:text-purple-700"/>
+                            <UilLinkedinAlt className="h-6 w-6 sm:h-6 sm:w-6 md:h-7 md:w-7 mx-3 my-3 hover:text-purple-700"/>
                         </a>
                         <a href="" target="_blank" className="text-purple-500 ">
                             <UilGithubAlt className="h-7 w-7 mx-3 my-3 hover:text-purple-700"/>
@@ -24,7 +24,7 @@ const Welcoming = () => {
                 </div>
 
 
-                <div className="flex order-3 lg:order-2 col-span-2 justify-center items-center">
+                <div className="col-span-2 sm:col-span-1 md:col-span-2 lg:col-span-1 flex order-3 lg:order-2 justify-center items-center">
                     <div className="block text-left">
                         <h1 className="text-5xl">Hi, I'am Alaa Eddine</h1>
                         <h3 className="text-xl text-gray-500">Frontend developer</h3>
@@ -41,7 +41,7 @@ const Welcoming = () => {
                     </div>
                 </div>
 
-                <div className="flex order-2 lg:order-3 col-span-3 block justify-center items-center">
+                <div className="col-span-1 md:col-span-1 lg:col-span-1 flex order-2 lg:order-3 block justify-center items-center">
                     <img
                         src="https://media.geeksforgeeks.org/wp-content/uploads/20210131212956/Screenshot20210131212921.png"
                         style={{"width": "700px"}} className="block"/>
