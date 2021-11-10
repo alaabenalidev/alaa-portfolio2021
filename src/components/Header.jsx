@@ -59,7 +59,7 @@ const Header = () => {
             {/*    </div>*/}
             {/*</nav>*/}
             {/*Navbar goes here */}
-            <nav class="bg-gray-200 full shadow-lg">
+            <nav class="bg-gray-200 full shadow-sm fixed w-full">
                 <div class="max-w-6xl mx-auto px-4">
                     <div class="flex justify-between">
                         <div class="flex space-x-7">

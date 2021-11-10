@@ -14,7 +14,7 @@ function App() {
       <div className="App">
           <Header/>
           <Welcoming/>
-          {/*<AboutMe/>*/}
+          <AboutMe/>
           {/*<header className="App-header">*/}
           {/*  <img src={logo} className="App-logo" alt="logo"/>*/}
           {/*  <p>*/}
