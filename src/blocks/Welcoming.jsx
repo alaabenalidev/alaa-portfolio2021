@@ -1,4 +1,4 @@
-import {ChevronDoubleDownIcon, MenuAlt3Icon, MoonIcon} from "@heroicons/react/outline";
+//import {ChevronDoubleDownIcon, MenuAlt3Icon, MoonIcon} from "@heroicons/react/outline";
 import {
     UilGithubAlt,
     UilInstagram,
@@ -10,32 +10,70 @@ import {
 const Welcoming = () => {
     return (
         // lg:grid-cols-3 md:grid-cols-2 md:grid-rows-2
-        <section className="w-full h-screen bg-gray-300">
-            <div className="flex grid grid-cols-6 gap-x-4 h-full">
+        <section className="w-100 h-100 bg-gray-300" style={{"paddingTop": "30px"}}>
+            <div className="row w-100 align-items-center">
+                <div className="col-2 col-sm-2 d-flex flex-column align-self-center order-1">
+                    <a href="javascript(0):void;" target="_blank" className="text-secondary d-block align-self-center">
+                        <UilLinkedinAlt
+                            className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
+                    </a>
+                    <a href="javascript(0):void;" target="_blank" className="text-secondary d-block align-self-center">
+                        <UilGithubAlt className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
+                    </a>
+                    <a href="javascript(0):void;" target="_blank" className="text-secondary d-block align-self-center">
+                        <UilInstagram className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
+                    </a>
+                </div>
+                <div className="col-12 col-sm-6 order-3 order-sm-2 d-flex flex-column">
+                    <h1 className="fw-bold md:text-3xl lg:text-5xl text-primary-color">Hi, I'am Alaa
+                        Eddine<img src="https://img.icons8.com/emoji/48/000000/waving-hand-emoji.png"/></h1>
+                    <h4 className="text-xl text-secondary">Frontend developer</h4>
+                    <p className="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="javascript(0):void;"
+                       className="w-50 btn bg-primary-color text-primary flex bg-purple-500 text-purple-700 font-semibold py-2 px-4 mt-4 rounded-md">Contact
+                        Me <UilMessage className="w-5 h-5 ml-2"/></a>
+                </div>
+                <div className="col-10 col-sm-4 d-flex flex-column order-2 order-sm-3">
+                    <img
+                        src={require("../asstes/imgs/profile_welcoming.svg").default}
+                        alt="firstImage"
+                        className="w-11/12 md:w-8/12"/>
+                </div>
+            </div>
+            {/*<div className="flex grid grid-cols-6 gap-x-4">
                 <div className="flex order-1 justify-center items-center col-span-1">
                     <div className="block">
-                        <a href="" target="_blank" className="text-secondary_color">
+                        <a href="javascript(0):void;" target="_blank" className="text-purple-700">
                             <UilLinkedinAlt
-                                className="h-6 w-6 sm:h-6 sm:w-6 md:h-7 md:w-7 mx-3 my-3 hover:text-primary_color"/>
+                                className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
                         </a>
-                        <a href="" target="_blank" className="text-secondary_color ">
-                            <UilGithubAlt className="h-7 w-7 mx-3 my-3 hover:text-primary_color"/>
+                        <a href="javascript(0):void;" target="_blank" className="text-purple-700 ">
+                            <UilGithubAlt className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
                         </a>
-                        <a href="" target="_blank" className="text-secondary_color">
-                            <UilInstagram className="h-7 w-7 mx-3 my-3 hover:text-primary_color"/>
+                        <a href="javascript(0):void;" target="_blank" className="text-purple-700">
+                            <UilInstagram className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
                         </a>
                     </div>
                     {/*<UilGithubAlt className="h-6 w-6 mx-3 my-3 text-purple-700"/>*/}
-                    {/*<UilInstagram className="h-6 w-6 mx-3 my-3 text-purple-700"/>*/}
-                </div>
+            {/*<UilInstagram className="h-6 w-6 mx-3 my-3 text-purple-700"/>*/}
+            {/*</div>
 
 
                 <div className="flex order-3 lg:order-2 items-center justify-center col-span-6 lg:col-span-2">
-                    <div className="block text-left">
-                        <h1 className="text-3xl font-semibold md:text-3xl lg:text-5xl text-primary_color">Hi, I'am Alaa
+                    <div className="text-left">
+                        <h1 className="text-3xl font-semibold md:text-3xl lg:text-5xl text-purple-700">Hi, I'am Alaa
                             Eddine</h1>
                         <h3 className="text-xl text-gray-500">Frontend developer</h3>
-                        <p className="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        <p className="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod
                             tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -45,8 +83,8 @@ const Welcoming = () => {
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat
                             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <a href=""
-                           className="flex bg-secondary_color text-white_sc_color font-semibold py-2 px-4 rounded-md inline-flex items-center hover:text-black_pr_color hover:bg-secondary_color">Contact
+                        <a href="javascript(0):void;"
+                           className="flex bg-purple-500 text-purple-700 font-semibold py-2 px-4 mt-4 rounded-md inline-flex items-center hover:text-purple-500 hover:bg-purple-700">Contact
                             Me <UilMessage className="w-5 h-5 ml-2"/></a>
                     </div>
                 </div>
@@ -55,7 +93,8 @@ const Welcoming = () => {
                     className="flex order-2 lg:order-3 block justify-center items-center col-span-5 lg:col-span-3">
                     <img
                         src={require("../asstes/imgs/profile_welcoming.svg").default}
-                        className="w-8/12"/>
+                        alt="firstImage"
+                        className="w-11/12 md:w-8/12"/>
                 </div>
             </div>
             {/*<div className="flex justify-center items-end">

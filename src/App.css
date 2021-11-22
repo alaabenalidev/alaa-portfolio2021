@@ -1,38 +1,111 @@
-.App {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500;1,600;1,700;&display=swap');
+
+:root {
+    --primary-color: #4c51bf;
+    --secondary-color: #7f9cf5;
+    --gray-primary-color: #e2e8f0;
+    --gray-secondary-color: #4a5568;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+body {
+    background-color: var(--gray-primary-color) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+.bg-primary {
+    background-color: var(--gray-primary-color) !important;
 }
 
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.bg-secondary {
+    background-color: var(--gray-secondary-color) !important;
 }
 
-.App-link {
-    color: #61dafb;
+.bg-primary-color {
+    background-color: var(--primary-color) !important;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+
+.text-primary-color {
+    color: var(--primary-color) !important;
+}
+
+.text-primary {
+    color: var(--gray-primary-color) !important;
+}
+
+.text-secondary {
+    color: var(--gray-secondary-color) !important;
+}
+
+* {
+    font-family: 'Bitter', serif;
+    font-weight: 400 !important;
+}
+
+h1 {
+    font-weight: 700 !important;
+}
+
+h3 {
+    font-weight: 500 !important;
+}
+
+p {
+    font-weight: 500 !important;
+    color: #282c34;
+}
+
+/* custom bootstrap */
+.accordion-button {
+    /*padding:0px;*/
+    background: var(--gray-primary-color);
+}
+
+.icon-accordion {
+    width: 30px;
+    color: var(--primary-color);
+}
+
+.accordion-title h4 {
+    font-weight: 600 !important;
+}
+
+.accordion-title p {
+    font-size: small;
+    font-weight: 500 !important;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--primary-color);
+}
+
+.accordion-button:not(.collapsed) {
+    background: none;
+}
+
+.accordion-button:not(.collapsed)::after{
+    color: var(--primary-color);
+    fill: var(--primary-color);
+}
+
+.accordion-item {
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('asstes/imgs/arrow-collpase.svg');
+
+}
+
+/* custom antd */
+
+.ant-progress-success-bg, .ant-progress-bg{
+    background: none;
 }
