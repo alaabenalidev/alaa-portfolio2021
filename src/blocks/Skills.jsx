@@ -1,4 +1,4 @@
-import {UilBracketsCurly, UilServerNetwork} from "@iconscout/react-unicons";
+import {UilBracketsCurly, UilServerNetwork, UilSwatchbook} from "@iconscout/react-unicons";
 import {SiAngular, SiHtml5, SiCss3, SiJavascript, SiReact, SiPhp, SiSymfony, SiLaravel, SiNodedotjs, SiExpress, SiAdobephotoshop, SiAdobeillustrator, SiAdobexd } from 'react-icons/si'
 import {Progress} from 'antd';
 
@@ -118,7 +118,7 @@ const Skills = () => {
                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseThree">
-                                <UilServerNetwork className={"h-100 icon-accordion align-self-baseline mt-1"}/>
+                                <UilSwatchbook className={"h-100 icon-accordion align-self-baseline mt-1"}/>
                                 <div className={"accordion-title d-flex flex-column align-self-start ms-2"}>
                                     <h4 className={"text-primary-color mb-1"}>Designer</h4>
                                     <p className={"text-secondary m-0"}>More then 2 years</p>
