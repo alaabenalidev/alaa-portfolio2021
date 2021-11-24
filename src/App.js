@@ -11,6 +11,7 @@ import AboutMe from "./blocks/AboutMe";
 import Skills from "./blocks/Skills";
 import Footer from "./blocks/Footer";
 import Portfolio from "./blocks/Portfolio";
+import Qualification from "./blocks/Qualification";
 
 // "start": "react-scripts start",
 //     "build": "react-scripts build",
@@ -23,6 +24,7 @@ function App() {
           <Welcoming/>
           <AboutMe/>
           <Skills/>
+          <Qualification/>
           {/*<Portfolio/>*/}
           <Footer/>
           {/*<header className="App-header">*/}

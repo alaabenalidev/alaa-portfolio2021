@@ -112,43 +112,26 @@ p {
 
 
 /* custom footer */
-a {
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
+
+.footer-16371 {
+    padding: 3rem 0 1rem 0;
+    background-color: #cbd5e0;
+    /*background-color: var(--primary-color);*/
 }
 
-a:hover {
-    text-decoration: none !important;
-    color: black !important;
+.footer-16371 .footer-site-logo a {
+    text-align: center !important;
+    /*color: #efefef;*/
+    color: var(--primary-color) !important;
+    font-size: 2rem !important;
+    font-weight: 900 !important;
 }
 
-.content {
-    height: 70vh;
-}
-
-.footer-59391 {
-    border-top: 1px solid #efefef;
-    background-color: var(--primary-color);
-    font-family: "Poppins", sans-serif;
-    padding: 25px 0;
-}
-
-.footer-59391 .site-logo {
-    color: #efefef;
-}
-
-.footer-59391 .site-logo a {
-    font-size: 30px;
-    color: #efefef;
-    font-weight: 900;
-}
-
-.footer-59391 .social-icons li {
+.footer-16371 .social-icons li {
     display: inline-block !important;
 }
 
-.footer-59391 .social-icons li a {
+.footer-16371 .social-icons li a {
     display: inline-block !important;
     position: relative !important;
     width: 40px !important;
@@ -156,77 +139,87 @@ a:hover {
     border-radius: 50% !important;
 }
 
-.footer-59391 .social-icons li a.dr {
-    background: #ff2e6e;
+.footer-16371 .social h3 {
+    font-weight: bold !important;
+    font-size: 18px;
+    color: #282c34;
+    margin-bottom: 8px;
 }
 
-.footer-59391 .social-icons li a.be {
-    background: #394cff;
+.footer-16371 .social ul li {
+    display: inline-block;
 }
 
-.footer-59391 .social-icons li a.tw {
-    background: #00a0fb;
+.footer-16371 .social .list-unstyled .tw a {
+    color: #00a0fb;
 }
 
-.footer-59391 .social-icons li a.in {
-    background: #c31574;
+.footer-16371 .social .list-unstyled li a .span-logo {
+    width: 20px!important;
+    height: 24px!important;
 }
 
-.footer-59391 .social-icons li a.fb {
-    background: #3b579b;
+.footer-16371 .social .list-unstyled .in a:hover {
+    color: #c31574!important;
 }
 
-.footer-59391 .social-icons li a.yt {
-    background: #fa2614;
+.footer-16371 .social .list-unstyled .fb a:hover {
+    color: #3b579b!important;
 }
 
-.footer-59391 .social-icons li a .span-logo {
-    position: absolute;
-    top: 50% !important;
-    left: 50% !important;
-    -webkit-transform: translate(-50%, -50%) !important;
-    -ms-transform: translate(-50%, -50%) !important;
-    transform: translate(-50%, -50%) !important;
-    color: #efefef !important;
+.footer-16371 .social .list-unstyled .yt a:hover {
+    color: #fa2614!important;
 }
 
-.footer-59391 .social-icons li a .span-logo:hover {
+.footer-16371 .social .list-unstyled .li a:hover {
+    color: #007BB6!important;
+}
+
+.footer-16371 .social li a {
     color: var(--primary-color) !important;
 }
 
-.footer-59391 .nav-links li {
+.footer-16371 .nav-links li {
     display: inline-block !important;
 }
 
-.footer-59391 .nav-links li a {
+.footer-16371 .nav-links li a {
     font-size: 14px;
-    color: #efefef;
+    color: #282c34;
     padding: 10px;
 }
 
-@media (max-width: 1199.98px) {
-    .footer-59391 .nav-links.nav-left li:first-child a {
-        padding-left: 0 !important;
-    }
+.footer-16371 .nav-links li a:hover {
+    color: var(--primary-color);
 }
 
-.footer-59391 .nav-links.nav-right li:last-child a {
+.footer-16371 .nav-links.nav-right li:last-child a {
     padding-right: 0 !important;
 }
 
-@media (max-width: 1199.98px) {
-    .footer-59391 .nav-links.nav-right li:first-child a {
-        padding-left: 0 !important;
-    }
+/* Custom antd tabs*/
+.ant-tabs-tab-active div span h4 {
+    color: var(--primary-color);
 }
 
-.footer-59391 .copyright {
-    border-top: 1px solid #efefef;
-    padding-top: 25px;
-    text-align: center;
-    color: white;
+.ant-tabs-ink-bar {
+    background-color: var(--primary-color) !important;
 }
 
-.footer-59391 .copyright p small {
-    color: #efefef;
+.ant-tabs-top > .ant-tabs-nav::before {
+    border: none !important;
 }
+
+/* Custom Qualifications */
+.qualification__tabs {
+    display: flex !important;
+    justify-content: space-evenly;
+}
+
+.qualification__data {
+    display: grid;
+    grid-gap: 0.3rem;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+}
+
