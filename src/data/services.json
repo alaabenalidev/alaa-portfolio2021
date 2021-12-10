@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "FrontEnd <br/> Developer",
+    "icon": {
+      "component": "uil-brackets-curly",
+      "className": "services__icon mb-1"
+    },
+    "btnText": "view more ->",
+    "modalData": [
+      {
+        "id": 1,
+        "text": ""
+      },
+      {
+        "id": 2,
+        "text": ""
+      },
+      {
+        "id": 3,
+        "text": ""
+      },
+      {
+        "id": 4,
+        "text": ""
+      },
+      {
+        "id": 5,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Backend <br/> Developer",
+    "icon": {
+      "component": "uil-server-network-alt",
+      "className": "services__icon mb-1"
+    },
+    "btnText": "view more ->",
+    "modalData": [
+      {
+        "id": 1,
+        "text": ""
+      },
+      {
+        "id": 2,
+        "text": ""
+      },
+      {
+        "id": 3,
+        "text": ""
+      },
+      {
+        "id": 4,
+        "text": ""
+      },
+      {
+        "id": 5,
+        "text": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "UI/Ux <br/> Design",
+    "icon": {
+      "component": "uil-swatchbook",
+      "className": "services__icon mb-1"
+    },
+    "btnText": "view more ->",
+    "modalData": [
+      {
+        "id": 1,
+        "text": ""
+      },
+      {
+        "id": 2,
+        "text": ""
+      },
+      {
+        "id": 3,
+        "text": ""
+      },
+      {
+        "id": 4,
+        "text": ""
+      },
+      {
+        "id": 5,
+        "text": ""
+      }
+    ]
+  }
+]

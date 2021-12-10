@@ -10,24 +10,24 @@ import {
 const Welcoming = () => {
     return (
         // lg:grid-cols-3 md:grid-cols-2 md:grid-rows-2
-        <section className="w-100 h-100 bg-gray-300" style={{"paddingTop": "30px"}}>
+        <section className="w-100 h-100 section__block" style={{"paddingTop": "30px"}}>
             <div className="row w-100 align-items-center">
-                <div className="col-2 col-sm-2 d-flex flex-column align-self-center order-1">
+                <div className="col-2 col-sm-2 d-flex flex-column align-self-center order-1 welcoming-icons">
                     <a href="javascript(0):void;" target="_blank" className="text-secondary d-block align-self-center">
                         <UilLinkedinAlt
-                            className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
+                            className="mx-3 my-3 li"/>
                     </a>
                     <a href="javascript(0):void;" target="_blank" className="text-secondary d-block align-self-center">
-                        <UilGithubAlt className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
+                        <UilGithubAlt className="mx-3 my-3 gt"/>
                     </a>
                     <a href="javascript(0):void;" target="_blank" className="text-secondary d-block align-self-center">
-                        <UilInstagram className="h-9 w-9 mx-3 my-3 hover:text-purple-700"/>
+                        <UilInstagram className="mx-3 my-3 in"/>
                     </a>
                 </div>
                 <div className="col-12 col-sm-6 order-3 order-sm-2 d-flex flex-column">
-                    <h1 className="fw-bold md:text-3xl lg:text-5xl text-primary-color">Hi, I'am Alaa
-                        Eddine<img src="https://img.icons8.com/emoji/48/000000/waving-hand-emoji.png"/></h1>
-                    <h4 className="text-xl text-secondary">Frontend developer</h4>
+                    <h1 className="home__title">Hi, I'm <span className={"home__title-name"}>Alaa
+                        Eddine</span><img src="https://img.icons8.com/emoji/48/000000/waving-hand-emoji.png" alt={"waving-hand"}/></h1>
+                    <h3 className="text-xl text-secondary home__subtitle">Frontend developer</h3>
                     <p className="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod
                         tempor incididunt ut

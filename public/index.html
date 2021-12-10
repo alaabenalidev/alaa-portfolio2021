@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8"/>
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <meta name="theme-color" content="#000000"/>
@@ -30,7 +33,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Alaa Dev - Portfolio Resume</title>
 
 
     <style>
@@ -39,13 +42,14 @@
             transform: translateY(40px);
             transition: transform .5s;
         }
-
     </style>
 
 </head>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!--
   This HTML file is a template.
   If you open it directly in the browser, you will see an empty page.
@@ -57,13 +61,14 @@
   To create a production bundle, use `npm run build` or `yarn build`.
 -->
 <script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", function(){
 
-        window.addEventListener('scroll', function() {
 
+    function navbarFixTop(){
+        console.log('navbarFixTop')
+        document.getElementById('navbar_top').classList.remove('fixed-bottom');
+        window.addEventListener('scroll', function () {
             if (window.scrollY > 50) {
                 document.getElementById('navbar_top').classList.add('fixed-top');
-                document.getElementById('navbar_top').classList.add('bg-gray-300');
                 // add padding top to show content behind navbar
                 navbar_height = document.querySelector('.navbar').offsetHeight;
                 document.body.style.paddingTop = navbar_height + 'px';
@@ -73,7 +78,32 @@
                 document.body.style.paddingTop = '0';
             }
         });
-    });
+    }
+
+    function navbarBottomFix(){
+        console.log('navbarBottomFix')
+        document.getElementById('navbar_top').classList.add('fixed-bottom');
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+    }
+
+    function widthScreenAction(){
+        if ($(window).width() > 960)
+            navbarFixTop()
+        else
+            navbarBottomFix()
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        widthScreenAction()
+
+        $(window).resize(function() {
+            widthScreenAction()
+        });
+
+
+    })
+    ;
     // DOMContentLoaded  end
 </script>
 </body>
