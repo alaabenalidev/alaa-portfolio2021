@@ -122,7 +122,7 @@ const Header = () => {
                                     : <UilSun/>
                                 }
                             </div>
-                            <UilApps data-bs-toggle="collapse"
+                            <UilApps className={"ms-2"} data-bs-toggle="collapse"
                                      data-bs-target="#navbarToggleExternalContent" aria-expanded="false"
                                      aria-label="Toggle navigation"/>
                         </div>

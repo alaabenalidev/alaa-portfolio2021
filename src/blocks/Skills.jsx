@@ -7,7 +7,7 @@ const Skills = () => {
         <section className="w-100 h-full my-auto py-4 container">
             <h1 className="d-flex justify-content-center section__title">Skills</h1>
             <h3 className="d-flex justify-content-center section__subtitle">My technical level</h3>
-            <div className={"row h-auto w-75"} style={{"margin":"0 auto"}}>
+            <div className={"row h-auto w-100 w-sm-75 w-md-75 w-lg-75"} style={{"margin":"0 auto"}}>
                 <div className={"col-sm-12 col-md-6 col-12"}>
                     <div className="accordion" id="accordionPanelsStayOpenExample">
                         <div className="accordion-item">

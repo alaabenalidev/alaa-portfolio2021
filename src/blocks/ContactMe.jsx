@@ -2,10 +2,10 @@ import {UilEnvelope, UilMapMarker, UilNavigator, UilPhoneAlt} from "@iconscout/r
 
 const ContactMe = () => {
     return (
-        <section className="w-100 h-full my-auto py-4 container section__block">
+        <section className="w-100 h-full my-auto py-4 container">
             <h1 className="d-flex justify-content-center section__title mb-1">Contact Me</h1>
             <h3 className="d-flex justify-content-center section__subtitle">Get in touch</h3>
-            <div className={"container w-75 p-3"}>
+            <div className={"container w-sm-75 w-md-75 w-lg-75 p-3"}>
                 <div className={"row"}>
                     <div className={"col-12 col-md-5"}>
                         <div className={"d-flex mb-3"}>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Hi, I'm ",
+    "title_name": "Alaa Eddine",
+    "title_img_src": "https://img.icons8.com/emoji/48/000000/waving-hand-emoji.png",
+    "subtitle": "Frontend developer",
+    "description": "I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.",
+    "icons": [
+      {
+        "id": 1,
+        "url": "#",
+        "icon": "uil-linkedin-alt",
+        "classes": "mx-3 my-3 li fs-2 fw-normal"
+      },
+      {
+        "id": 2,
+        "url": "#",
+        "icon": "uil-github-alt",
+        "classes": "mx-3 my-3 gt fs-2 fw-normal"
+      },
+      {
+        "id": 3,
+        "url": "#",
+        "icon": "uil-instagram",
+        "classes": "mx-3 my-3 in fs-2 fw-normal"
+      }
+    ]
+  }
+]

@@ -128,10 +128,6 @@ body, .App {
     color: var(--text-color);
 }
 
-.section__block{
-    background-color: var(--body-color);
-}
-
 h1, h2, h3, h4 {
     color: var(--title-text) !important;
     font-weight: var(--font-semi-bold);
@@ -202,6 +198,119 @@ img {
     background-color: var(--first-color-alt);
     border-color: var(--first-color-alt);
 }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .w-sm-100 {
+        width:100%!important;
+    }
+    .w-sm-75 {
+        width:75%!important;
+    }
+    .w-sm-50 {
+        width:50%!important;
+    }
+    .w-sm-25 {
+        width:25%!important;
+    }
+    .h-sm-100 {
+        height:100%!important;
+    }
+    .h-sm-75 {
+        height:75%!important;
+    }
+    .h-sm-50 {
+        height:50%!important;
+    }
+    .h-sm-25 {
+        height:25%!important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .w-md-100 {
+        width:100%!important;
+    }
+    .w-md-75 {
+        width:75%!important;
+    }
+    .w-md-50 {
+        width:50%!important;
+    }
+    .w-md-25 {
+        width:25%!important;
+    }
+    .h-md-100 {
+        height:100%!important;
+    }
+    .h-md-75 {
+        height:75%!important;
+    }
+    .h-md-50 {
+        height:50%!important;
+    }
+    .h-md-25 {
+        height:25%!important;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .w-lg-100 {
+        width:100%!important;
+    }
+    .w-lg-75 {
+        width:75%!important;
+    }
+    .w-lg-50 {
+        width:50%!important;
+    }
+    .w-lg-25 {
+        width:25%!important;
+    }
+    .h-lg-100 {
+        height:100%!important;
+    }
+    .h-lg-75 {
+        height:75%!important;
+    }
+    .h-lg-50 {
+        height:50%!important;
+    }
+    .h-lg-25 {
+        height:25%!important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .w-xl-100 {
+        width:100%!important;
+    }
+    .w-xl-75 {
+        width:75%!important;
+    }
+    .w-xl-50 {
+        width:50%!important;
+    }
+    .w-xl-25 {
+        width:25%!important;
+    }
+    .h-xl-100 {
+        height:100%!important;
+    }
+    .h-xl-75 {
+        height:75%!important;
+    }
+    .h-xl-50 {
+        height:50%!important;
+    }
+    .h-xl-25 {
+        height:25%!important;
+    }
+}
+
 
 /*==================== Layout ====================*/
 
@@ -322,6 +431,7 @@ nav {
 .about__description {
     text-align: center;
     margin-bottom: var(--mb-2-5);
+    font-size: var(--h3-font-size);
 }
 
 .services-content {
@@ -407,6 +517,12 @@ p {
 
 .welcoming-icons a {
     color: var(--first-color) !important;
+}
+
+.welcoming__description {
+    text-align: left;
+    margin-bottom: var(--mb-2-5);
+    font-size: var(--h3-font-size);
 }
 
 /* custom bootstrap */

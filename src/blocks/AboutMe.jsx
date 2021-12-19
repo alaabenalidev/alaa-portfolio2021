@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-        <section className="w-100 h-full my-auto py-4 container section__block">
+        <section className="w-100 h-full my-auto py-4 container">
             <h1 className="d-flex section__title justify-content-center">About Me Page</h1>
             <h3 className="text-secondary section__subtitle d-flex justify-content-center">My introduction</h3>
             <div className={"row h-auto w-100 gx-4"}>
@@ -12,12 +12,8 @@ const AboutMe = () => {
                 </div>
                 <div className={"col d-block align-self-center m-3"}>
                     <div className="row">
-                        <p className={"about__description"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat
-                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p className={"about__description"}>Web developer, with extensive knowledge and years of
+                            expérience, working in web technologies and ui / ux design, delivering quality work.</p>
                     </div>
 
                     <div className="row justify-content-center">

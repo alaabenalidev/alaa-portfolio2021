@@ -1,6 +1,8 @@
 [
   {
     "id": 1,
+    "pageTitle": "Services",
+    "pageSubtitle": "",
     "name": "FrontEnd <br/> Developer",
     "icon": {
       "component": "uil-brackets-curly",
