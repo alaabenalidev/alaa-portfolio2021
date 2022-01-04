@@ -584,6 +584,25 @@ p {
     background: none;
 }
 
+.tab-info-link{
+    font-weight: var(--font-semi-bold) !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.tab-info-link:link {
+    color: var(--first-color) ;
+
+}
+.tab-info-link:visited {
+    color: var(--first-color);
+}
+.tab-info-link:hover {
+    color: var(--first-color-alt);
+}
+.tab-info-link:active {
+    color: var(--first-color-alt);
+}
 
 /* custom footer */
 

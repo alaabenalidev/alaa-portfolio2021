@@ -1,8 +1,4 @@
-//import {ChevronDoubleDownIcon, MenuAlt3Icon, MoonIcon} from "@heroicons/react/outline";
 import {
-    UilGithubAlt,
-    UilInstagram,
-    UilLinkedinAlt,
     UilMessage
 } from "@iconscout/react-unicons";
 

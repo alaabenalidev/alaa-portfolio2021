@@ -112,7 +112,7 @@ const Header = () => {
             <nav id="navbar_top" className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
                     <a className="navbar-brand" href="javascript(0):void;">
-                        <img src={require("../asstes/imgs/logo.png").default} width={"50%"}/>
+                        <img src={require("../asstes/imgs/logo.png").default} alt={'Website logo'} width={"50%"}/>
                     </a>
                     <button className="navbar-toggler" type="button">
                         <div className={"d-flex"}>
