@@ -9,26 +9,27 @@
       "className": "services__icon mb-1"
     },
     "btnText": "view more ->",
+    "modalTitle": "FrontEnd Developer",
     "modalData": [
       {
         "id": 1,
-        "text": ""
+        "text": "Landing page"
       },
       {
         "id": 2,
-        "text": ""
+        "text": "Content management system ( CMS )"
       },
       {
         "id": 3,
-        "text": ""
+        "text": "Single-page application (SPA)"
       },
       {
         "id": 4,
-        "text": ""
+        "text": "Web application framework & libary ( Angular, React )"
       },
       {
         "id": 5,
-        "text": ""
+        "text": "Ui frameworks ( Bootstrap, Tailwind)"
       }
     ]
   },
@@ -40,14 +41,15 @@
       "className": "services__icon mb-1"
     },
     "btnText": "view more ->",
+    "modalTitle": "Backend Developer",
     "modalData": [
       {
         "id": 1,
-        "text": ""
+        "text": "Sql Database"
       },
       {
         "id": 2,
-        "text": ""
+        "text": "NoSql Database"
       },
       {
         "id": 3,
@@ -71,6 +73,7 @@
       "className": "services__icon mb-1"
     },
     "btnText": "view more ->",
+    "modalTitle": "UI/Ux Design",
     "modalData": [
       {
         "id": 1,

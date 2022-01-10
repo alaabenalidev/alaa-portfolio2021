@@ -1,15 +1,8 @@
 import {Tabs} from 'antd';
-import {UilBriefcase, UilGraduationCap} from "@iconscout/react-unicons";
+
 import QualificationData from '../data/qualifications.json'
-import SidebarProfiles from "../components/Welcoming/sidebar-profiles";
 import TabInfo from "../components/Qualification/TabInfo";
-import parse from "html-react-parser";
 import React from "react";
-
-const {TabPane} = Tabs;
-const state = {size: 'large'};
-
-const MainData = QualificationData;
 
 
 const Qualification = () => {
