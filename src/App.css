@@ -1122,6 +1122,7 @@ a, a:hover {
 @media screen and (min-width: 769px) {
     .postcard {
         flex-wrap: inherit;
+        height: 400px !important;
     }
 
     .postcard .postcard__title {

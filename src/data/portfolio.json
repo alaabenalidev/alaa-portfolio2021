@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "pageTitle": "Qualification",
+    "pageSubtitle": "My technical level",
+    "carouselItems": [
+      {
+        "img": "alaa-dev-old_website.png",
+        "title": "Portfolio Website",
+        "url": "https://alaa-dev-old.vercel.app/",
+        "release_date": "Sun, 13 September 2020",
+        "description": "Personal Portfolio React Template can be used for many purposes. It’s a creative and clean design.It’s suitable for Designer, Developer, Specialist, Freelancer, Software Engineer, Teacher or others expert who Show their professional projects and services in digital way. It’s 100% responsive.",
+        "languages": [
+          "ReactJs",
+          "Bootstrap",
+          "Typed.js",
+          "Jquery"
+        ]
+      },
+      {
+        "img": "derintoncare_website.png",
+        "title": "Derinton Care (SAP)",
+        "url": "https://derintoncare.tn/",
+        "release_date": "Sat, 21 August 2021",
+        "description": "Derinton Care is authorized to repair all Samsung branded mobile phones, tablets or accessories.It’s one page website wish is developed by the CMS.",
+        "languages": [
+          "ReactJs",
+          "Bootstrap",
+          "Typed.js",
+          "Jquery"
+        ]
+      },
+      {
+        "img": "hublify_website.png",
+        "title": "Hublify shop",
+        "url": "https://kr1.dev.hublify.io/",
+        "release_date": "Mon, 6 December 2021",
+        "description": "is an attractive HTML Bootstrap 5.x twig template specially designed for the multipurpose shops like mega store, grocery store, supermarket, organic shop, and online stores selling products like beverages, vegetables, fruits, ice creams, paste, herbs, juice, meat, cold drinks, sausages, cocktails, soft drinks, cookies…",
+        "languages": [
+          "Twig",
+          "CSS 3",
+          "Bootstrap",
+          "Jquery"
+        ]
+      }
+    ]
+  }
+]
