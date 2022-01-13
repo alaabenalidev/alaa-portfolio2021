@@ -9,35 +9,32 @@ const Portfolio = () => {
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <article className="postcard dark blue">
-                                    <a className="postcard__img_link" href>
-                                        <img className="postcard__img" src="https://picsum.photos/1000/1000"
+                                    <a className="postcard__img_link" href={"https://alaa-dev-old.vercel.app/"}
+                                       target={"_blank"}>
+                                        <img className="postcard__img"
+                                             src={require("../asstes/imgs/old_portfolio_website.png").default}
                                              alt="Image Title"/>
                                     </a>
                                     <div className="postcard__text t-dark">
-                                        <h1 className="postcard__title blue"><a href>Podcast Title1</a></h1>
+                                        <h1 className="postcard__title blue"><a
+                                            href={"https://alaa-dev-old.vercel.app/"} target={"_blank"}>Portfolio
+                                            Website</a></h1>
                                         <div className="postcard__subtitle small">
                                             <time dateTime="2020-05-25 12:00:00">
-                                                <i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                                <i className="fas fa-calendar-alt mr-2"></i>Sun, 13 September 2020
                                             </time>
                                         </div>
                                         <div className="postcard__bar"></div>
-                                        <div className="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur
-                                            adipisicing elit.
-                                            Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim,
-                                            commodi quia,
-                                            doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora
-                                            reiciendis molestiae
-                                            repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla
-                                            unde ipsum
-                                            dolores nobis enim quidem excepturi, illum quos!
+                                        <div className="postcard__preview-txt">Personal Portfolio React Template can be
+                                            used for many purposes. It’s a creative and clean design.It’s
+                                            suitable for Designer, Developer, Specialist, Freelancer, Software Engineer,
+                                            Teacher or others expert who
+                                            Show their professional projects and services in digital way. It’s 100%
+                                            responsive.
                                         </div>
-                                        <ul className="postcard__tagbox">
-                                            <li className="tag__item"><i className="fas fa-tag mr-2"></i>Podcast</li>
-                                            <li className="tag__item"><i className="fas fa-clock mr-2"></i>55 mins.</li>
-                                            <li className="tag__item play blue">
-                                                <a href><i className="fas fa-play mr-2"></i>Play Episode</a>
-                                            </li>
-                                        </ul>
+                                        <p className="postcard__tagbox">
+
+                                        </p>
                                     </div>
                                 </article>
                             </div>

@@ -1,5 +1,3 @@
-//import logo from './logo.svg';
-//import "tailwindcss/tailwind.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery/dist/jquery.min.js'
 import 'bootstrap/dist/js/bootstrap.min.js'

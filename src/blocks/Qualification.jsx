@@ -1,6 +1,3 @@
-import {Tabs} from 'antd';
-
-import QualificationData from '../data/qualifications.json'
 import TabInfo from "../components/Qualification/TabInfo";
 import React from "react";
 
@@ -13,7 +10,6 @@ const Qualification = () => {
             <div className={"container"}>
                 <TabInfo/>
             </div>
-
         </section>
     )
 }
