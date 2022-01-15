@@ -4,7 +4,7 @@ import {Progress} from 'antd';
 
 const Skills = () => {
     return (
-        <section className="w-100 h-full my-auto py-4 container">
+        <section className="w-100 h-full my-auto py-4 container" name={"Skills"}>
             <h1 className="d-flex justify-content-center section__title">Skills</h1>
             <h3 className="d-flex justify-content-center section__subtitle">My technical level</h3>
             <div className={"row h-auto w-100 w-sm-75 w-md-75 w-lg-75"} style={{"margin":"0 auto"}}>

@@ -108,6 +108,11 @@ body .dark-theme {
     /*padding: 0.5 rem 1 rem !important;*/
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--first-color) !important;
+    font-weight: 400 !important;
+}
+
 /*==================== BASE ====================*/
 * {
     box-sizing: border-box;

@@ -17,7 +17,7 @@ const Services = () => {
     }
 
     return (
-        <section className="w-100 h-full my-auto py-4 container">
+        <section className="w-100 h-full my-auto py-4 container" name={"Services"}>
             <h1 className="d-flex justify-content-center section__title">Services</h1>
             <h3 className="d-flex justify-content-center section__subtitle">My technical level</h3>
             <div className={"container"}>

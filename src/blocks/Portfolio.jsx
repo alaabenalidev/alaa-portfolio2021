@@ -4,8 +4,8 @@ import PortfolioCarouselItem from "../container/portfolio/carousel/item";
 const Portfolio = () => {
     //console.log(PortfolioData[0].carouselItems)
     return (
-        <section className="w-100 h-full my-auto py-4 container">
-            <h1 className="d-flex justify-content-center section__title">Qualification</h1>
+        <section className="w-100 h-full my-auto py-4 container" name={"Portfolio"}>
+            <h1 className="d-flex justify-content-center section__title">Portfolio</h1>
             <h3 className="d-flex justify-content-center section__subtitle">My technical level</h3>
             <div className={"container"}>
                 <div id="carouselExampleControls" className="carousel slide carousel-fade" data-bs-ride="carousel">

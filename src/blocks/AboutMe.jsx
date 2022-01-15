@@ -3,7 +3,7 @@ import AboutMeData from '../data/aboutMe.json'
 const AboutMe = () => {
     const pageData = AboutMeData[0];
     return (
-        <section className="w-100 h-full my-auto py-4 container">
+        <section className="w-100 h-full my-auto py-4 container" name={"About"}>
             <h1 className="d-flex section__title justify-content-center">{pageData.pageTitle}</h1>
             <h3 className="text-secondary section__subtitle d-flex justify-content-center">{pageData.pageSubtitle}</h3>
             <div className={"row h-auto w-100 gx-4"}>

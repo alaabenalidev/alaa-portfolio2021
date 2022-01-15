@@ -12,6 +12,7 @@ import {
 
 import jQuery from 'jquery'
 import {useState} from "react";
+import {Link} from "react-scroll";
 
 const Header = () => {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -51,61 +52,68 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="mobile__navbar-nav collapse p-4 row g-4 rounded-top shadow" id="navbarToggleExternalContent">
+            <div className="mobile__navbar-nav collapse p-4 row g-4 rounded-top shadow"
+                 id="navbarToggleExternalContent">
                 <div className={"d-flex justify-content-end mx-2 gy-0"} data-bs-toggle="collapse"
                      data-bs-target="#navbarToggleExternalContent" aria-expanded="false"
                      aria-label="Toggle navigation">
                     <UilTimes/>
                 </div>
 
-                <div className={"col-4 col-sm-3 nav-link"}>
+                <Link to="Home" spy={true} smooth={true} offset={0} duration={500}
+                      className={"col-4 col-sm-3 nav-link"}>
                     <div className={"d-flex justify-content-center"}>
                         <UilEstate/>
                     </div>
                     <div className={"d-flex justify-content-center"}>
                         Home
                     </div>
-                </div>
-                <div className={"col-4 col-sm-3 nav-link"}>
+                </Link>
+                <Link to="About" spy={true} smooth={true} offset={0} duration={500}
+                      className={"col-4 col-sm-3 nav-link"}>
                     <div className={"d-flex justify-content-center"}>
                         <UilUser/>
                     </div>
                     <div className={"d-flex justify-content-center"}>
                         About
                     </div>
-                </div>
-                <div className={"col-4 col-sm-3 nav-link"}>
+                </Link>
+                <Link to="Skills" spy={true} smooth={true} offset={0} duration={500}
+                      className={"col-4 col-sm-3 nav-link"}>
                     <div className={"d-flex justify-content-center"}>
                         <UilFile/>
                     </div>
                     <div className={"d-flex justify-content-center"}>
                         Skills
                     </div>
-                </div>
-                <div className={"col-4 col-sm-3 nav-link"}>
+                </Link>
+                <Link to="Services" spy={true} smooth={true} offset={0} duration={500}
+                      className={"col-4 col-sm-3 nav-link"}>
                     <div className={"d-flex justify-content-center"}>
                         <UilBriefcase/>
                     </div>
                     <div className={"d-flex justify-content-center"}>
                         Services
                     </div>
-                </div>
-                <div className={"col-4 col-sm-3 nav-link"}>
+                </Link>
+                <Link to="Portfolio" spy={true} smooth={true} offset={0} duration={500}
+                      className={"col-4 col-sm-3 nav-link"}>
                     <div className={"d-flex justify-content-center"}>
                         <UilScenery/>
                     </div>
                     <div className={"d-flex justify-content-center"}>
                         Portfolio
                     </div>
-                </div>
-                <div className={"col-4 col-sm-3 nav-link"}>
+                </Link>
+                <Link to="ContactMe" spy={true} smooth={true} offset={0} duration={500}
+                      className={"col-4 col-sm-3 nav-link"}>
                     <div className={"d-flex justify-content-center"}>
                         <UilMessage/>
                     </div>
                     <div className={"d-flex justify-content-center"}>
                         ContactMe
                     </div>
-                </div>
+                </Link>
 
             </div>
 
@@ -130,40 +138,40 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="main_nav">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <a href="javascript(0):void;"
-                                   className="nav-link">
+                                <Link to="Home" spy={true} smooth={true} offset={-45} duration={500}
+                                      className={"nav-link"}>
                                     <UilEstate className=" w-5 h-5 uil uil-estate mr-1"/> Home
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a href="javascript(0):void;"
-                                   className="nav-link">
+                                <Link to="About" spy={true} smooth={true} offset={-45} duration={500}
+                                      className={"nav-link"}>
                                     <UilUser className="w-5 h-5 uil uil-estate mr-1"/> About
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a href="javascript(0):void;"
-                                   className="nav-link">
+                                <Link to="Skills" spy={true} smooth={true} offset={-45} duration={500}
+                                      className={"nav-link"}>
                                     <UilFile className=" w-5 h-5 uil uil-estate mr-1"/> Skills
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a href="javascript(0):void;"
-                                   className="nav-link">
+                                <Link to="Services" spy={true} smooth={true} offset={-45} duration={500}
+                                      className={"nav-link"}>
                                     <UilBriefcase className=" w-5 h-5 uil uil-estate mr-1"/> Services
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a href="javascript(0):void;"
-                                   className="nav-link">
+                                <Link to="Portfolio" spy={true} smooth={true} offset={-45} duration={500}
+                                      className={"nav-link"}>
                                     <UilScenery className=" w-5 h-5 uil uil-estate mr-1"/> Portfolio
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
-                                <a href="javascript(0):void;"
-                                   className="nav-link">
+                                <Link to="ContactMe" spy={true} smooth={true} offset={-45} duration={500}
+                                      className={"nav-link"}>
                                     <UilMessage className=" w-5 h-5 uil uil-estate mr-1"/> ContactMe
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <a href

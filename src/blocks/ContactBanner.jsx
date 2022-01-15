@@ -1,4 +1,5 @@
 import {UilNavigator} from "@iconscout/react-unicons";
+import {Link, animateScroll as scroll} from "react-scroll";
 
 const ContactBanner = () => {
     return (
@@ -7,7 +8,7 @@ const ContactBanner = () => {
                 <div className={"col-12 col-md-7 p-5"}>
                     <p className={"banner__contact-title"}>You have a new project</p>
                     <p className={"banner__contact-description"}>Contact me now and get a 30% discount on your new project</p>
-                    <button type={"button"} className={"btn btn-secondary btn-rounded"}>Contact Me <UilNavigator/></button>
+                    <Link to="ContactMe" spy={true} smooth={true} offset={-45} duration={500} className={"btn btn-secondary btn-rounded"}>Contact Me <UilNavigator/></Link>
                 </div>
                 <div className={"col-12 col-md-5 pb-0 d-flex justify-content-end"}>
                     <img
