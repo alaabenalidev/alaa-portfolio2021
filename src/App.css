@@ -113,6 +113,18 @@ body .dark-theme {
     font-weight: 400 !important;
 }
 
+.scrollTop-icon {
+    font-size: var(--mb-3) !important;
+    width: 100% !important;
+    height: 100% !important;
+    color: var(--body-color) !important;
+}
+
+.styles_scroll-to-top__2A70v{
+    background-color: var(--first-color) !important;
+    box-shadow: 0 9px 25px 0 rgb(110 87 224 / 28%) !important;
+}
+
 /*==================== BASE ====================*/
 * {
     box-sizing: border-box;

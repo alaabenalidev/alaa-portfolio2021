@@ -10,6 +10,8 @@ import Qualification from "../blocks/Qualification";
 import Services from "../blocks/Services";
 import ContactBanner from "../blocks/ContactBanner";
 import ContactMe from "../blocks/ContactMe";
+import ScrollToTop from "react-scroll-to-top";
+import {UilAngleUp} from "@iconscout/react-unicons";
 
 function BaseLayout() {
     return (
@@ -24,6 +26,7 @@ function BaseLayout() {
             <ContactBanner/>
             <ContactMe/>
             <Footer/>
+            <ScrollToTop smooth component={<UilAngleUp className={"scrollTop-icon"}/>} />
         </Fragment>
     )
 }
