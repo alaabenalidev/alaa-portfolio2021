@@ -13,7 +13,6 @@ const Portfolio = () => {
                         <div className="carousel-inner">
                             {PortfolioData[0].carouselItems.map((single, key) => {
                                 const isActive = (key == 0) ? "active" : ""
-                                console.log(isActive)
                                 return (
                                     <div className={"carousel-item " + isActive}>
                                         <PortfolioCarouselItem data={single} key={key}/>
